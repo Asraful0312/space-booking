@@ -1,0 +1,67 @@
+const data = [
+  {
+    id: 1,
+    img: "/images/1.jpeg",
+    space:
+      "Coworking Space: Corporate Suites Rockefeller Center in New York City",
+    location: "234 Hickle Heights",
+    time: "09:00 AM- 06:00 PM",
+    date: "12/7/2023",
+    numberOfPeople: "05",
+    price: "$140",
+    tableNo: "01",
+    gustes: "01",
+  },
+  {
+    id: 2,
+    img: "/images/2.jpeg",
+    space: "lllllll",
+    location: "234 Hickle Heights",
+    time: "09:00 AM- 06:00 PM",
+    date: "12/7/2023",
+    numberOfPeople: "06",
+    price: "$420",
+    tableNo: "07",
+    gustes: "08",
+  },
+  {
+    id: 3,
+    img: "/images/2.jpeg",
+    space: "search this item",
+    location: "234 Hickle Heights",
+    time: "09:00 AM- 06:00 PM",
+    date: "12/7/2023",
+    numberOfPeople: "06",
+    price: "$420",
+    tableNo: "07",
+    gustes: "08",
+  },
+  {
+    id: 4,
+    img: "/images/2.jpeg",
+    space:
+      "Coworking Space: Corporate Suites Rockefeller Center in New York City",
+    location: "234 Hickle Heights",
+    time: "09:00 AM- 06:00 PM",
+    date: "12/7/2023",
+    numberOfPeople: "06",
+    price: "$420",
+    tableNo: "07",
+    gustes: "08",
+  },
+  {
+    id: 5,
+    img: "/images/2.jpeg",
+    space:
+      "Coworking Space: Corporate Suites Rockefeller Center in New York City",
+    location: "234 Hickle Heights",
+    time: "09:00 AM- 06:00 PM",
+    date: "12/7/2023",
+    numberOfPeople: "06",
+    price: "$420",
+    tableNo: "07",
+    gustes: "08",
+  },
+];
+
+export default data;

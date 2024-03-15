@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --swiper-navigation-size: 15px;
+}
+
+.pagination {
+  @apply flex gap-2 flex-wrap lg:gap-5 items-center;
+}
+
+.hero {
+  @apply w-full px-5  flex items-center gap-6 py-2 md:py-5  xl:pl-[135px] xl:pr-[83px] bg-white rounded-[100px] lg:after:w-[1px] lg:after:h-[40px] lg:after:left-2/4 lg:after:z-40 lg:after:absolute lg:after:bg-lightGray;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* custom checkbox start*/
+.custom-checkbox {
+  appearance: none; /* Removes default checkbox appearance */
+  -webkit-appearance: none; /* For WebKit/Blink based browsers */
+  -moz-appearance: none; /* For Mozilla Firefox */
+
+  /* Define custom styles */
+  width: 30px;
+  height: 30px;
+  background-color: #ffff;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.custom-checkbox:checked {
+  background-color: #ffff; /* Change background color when checkbox is checked */
+}
+
+/* Hide default checkbox visually but keep it accessible */
+.custom-checkbox::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/icons/check.png"); /* Optionally, add a custom checkmark icon */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%; /* Adjust size of checkmark icon */
+  visibility: hidden;
+}
+
+/* Show checkmark icon when checkbox is checked */
+.custom-checkbox:checked::before {
+  visibility: visible;
+}
+/* custom checkbox end*/
+
+.link {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  color: #a3a3a3;
+  background-color: transparent;
+  padding: 10px 16px;
+}
+
+.active-link {
+  background-color: #f9f9f9;
+}
+
+.dots {
+  color: #a3a3a3;
+}
