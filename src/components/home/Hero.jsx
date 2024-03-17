@@ -3,7 +3,7 @@ import { GoSearch } from "react-icons/go";
 const Hero = () => {
   return (
     <section className="container mb-16 p-5">
-      <div className="rounded-[32px] h-[40vh] sm:h-[45vh]  md:h-[60vh] xl:h-full overflow-hidden relative">
+      <div className="rounded-[32px] h-[46vh] sm:h-[65vh]  md:h-[70vh] xl:h-full overflow-hidden relative">
         <img className="w-full h-full" src="/images/hero.jpeg" alt="hero" />
         <div className="bg-black/25 absolute inset-0 flex flex-col items-center justify-center">
           <div className="w-full sm:w-[70%] flex flex-col items-center">
